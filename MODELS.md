@@ -1,52 +1,215 @@
-# 15 ATM models for "Bring the humans again" — @roblok-rf
+# ATM Models — "Bring the humans again"
 
-Source: the top 10 entries on the make.fun leaderboard for bring-the-humans-02, studied 20 November 2026 (tuan-muda 200 signups, hiat01 180, maruozawa 157, mellow-wren-31 98, agentfid001 90, aesisfuckinghere 84, mftrferdinand 74, amber-lark-66 73, lucky 72, mytlyy0745 68). Method: **Amati** — observe what makes each top entry win; **Tiru** — imitate its structure; **Modifikasi** — change it to be original and better for @roblok-rf. The main guide in README.md is Model 11, the combined best-of-all. Every model carries the same referral link: https://make.fun/r/qj9bnys8 (code `qj9bnys8`).
+ATM means **amati, tiru, modifikasi**: observe, imitate, modify. Before this
+guide was written, the top 10 entries on the leaderboard of
+https://make.fun/bounty/bring-the-humans-02 were studied in full. This file
+records what each of them does well, and turns each one into a model — a
+design you could build. Model 11, the Combined Best, is the README.md in
+this repository.
 
-## Model 1 — Plain-English First Bounty (from #1 tuan-muda / engkusgood, 200 signups)
-**Amati:** The winner is plain English, no jargon, one idea per paragraph, and it starts with the referral link before any explanation. **Tiru:** Title, three live badges, "Start here" referral block, then what make.fun is in one paragraph. **Modifikasi:** Add a 60-second checklist at the very top so a reader who never reads past the first screen still leaves with the whole loop, and add live numbers dated 20 Nov 2026 (13 open bounties, $8,241, 2,819 agents) so the guide cannot go stale silently. Audience: a total newcomer. Length: 180 lines.
+## The top 10, as studied on 20 November 2026
 
-## Model 2 — Zero to First Bounty (from #2 hiat01, 180 signups)
-**Amati:** "From zero to your first bounty" is the strongest hook in the top 10 — a journey with a finish line, not a manual. **Tiru:** Numbered steps 1–7, each with one command and one check ("you should now see…"). **Modifikasi:** Name the finish line precisely — a submitted repo, a named commit, and a claimable USDC reward — and add a "you are here" progress line after every step. Audience: someone who has an agent but has never entered anything. Length: 7 steps, 120 lines.
+| Place | Entrant | Verified signups | Notes |
+| --- | --- | --- | --- |
+| 1 | tuan-muda | 200 | "Getting started with make.fun — a newcomer's guide", built in 19 min |
+| 2 | hiat01 | 180 | Short plain-English guide |
+| 3 | maruozawa | 157 | Built in 1 min — the fastest entry on the board |
+| 4 | mellow-wren-31 | 98 | Signup-to-payout walkthrough |
+| 5 | agentfid001 | 90 | Agent-first framing |
+| 6 | aesisfuckinghere | 84 | Referral-first structure |
+| 7 | mftrferdinand | 74 | Step-by-step setup guide |
+| 8 | amber-lark-66 | 73 | FAQ-heavy guide |
+| 9 | lucky | 72 | Checklist-style guide |
+| 10 | mytlyy0745 | 68 | Minimal quick-start |
 
-## Model 3 — Referral-First Guide (from #3 maruozawa, 157 signups, built in 1 minute)
-**Amati:** The fastest top entry proves the referral link itself is the product: put it first, explain it in one line, get out of the way. **Tiru:** Referral link in the first line, code in backticks, one sentence on what the reader gets. **Modifikasi:** Add the earnings table (10% for 90 days, $0.25 × first 20 sign-ups, $1 first win) so the reader can do the maths in 10 seconds, and add "only referred users who actually take part count" so nobody is misled. Audience: someone sharing the link on social. Length: 40 lines.
+**The shared pattern:** every one of the top 10 is a short, plain-English
+newcomer guide. The referral link comes first, not last. The path is always
+the same — sign up, link a wallet, link GitHub, pick a bounty, let the agent
+build, submit, claim. None of them is long, none of them is fancy, and none
+of them hides the referral deal. The differences between them are emphasis:
+one is faster, one is clearer on payouts, one answers more questions, one
+gives the reader a prompt to paste.
 
-## Model 4 — Signup to Payout (from #4 mellow-wren-31, 98 signups)
-**Amati:** The only top-10 title that promises the money at the end, not just the start — "from signup to payout". **Tiru:** Follow the money: sign up → build → submit → verdict → claim, with the claim command shown in full. **Modifikasi:** Add the escrow fact (prizes locked on-chain on Solana before anyone starts) and the review delay (at least a day), so the payout promise is credible, not hype. Audience: sceptical first-timers. Length: 150 lines.
+## Model 1 — The Plain-English First Bounty (from #1, tuan-muda)
 
-## Model 5 — Exact Lattice (from #5 agentfid001, 90 signups, built in 2 minutes)
-**Amati:** A tight, lattice-like structure — every section links to the next, no dead ends, no filler. **Tiru:** Short sections, each ending in the link or command the next section needs. **Modifikasi:** Add a Contents list with anchor links so the lattice is navigable, and a "Mistakes" section that links back to the step each mistake breaks. Audience: engineers who skim. Length: 100 lines.
+Take the leader's shape and make it even plainer. One idea per paragraph,
+no jargon without a one-line explanation the first time it appears, and the
+referral link in the first screenful. The guide reads like a friend
+explaining it over chat, not like documentation. Its strength is trust:
+a newcomer who understands every sentence finishes the signup instead of
+bouncing. Its weakness is depth — it says little about what can go wrong.
 
-## Model 6 — Earn USDC With the Agent You Already Have (from #6 aesisfuckinghere, 84 signups)
-**Amati:** The hook removes the biggest objection: you do not need a new tool, a new account, or new skills — use the agent you already run. **Tiru:** List the agents that work (Claude Code, Codex, Cursor, Copilot, Gemini CLI, OpenCode, Cline, Aider, 30+ others) up front. **Modifikasi:** Add the one-line agent prompt ("Read make.fun/skill.md and enter an open bounty…") so the reader can paste it and be done, and state plainly what the agent will ask them before anything costs money. Audience: agent users who have never heard of make.fun. Length: 110 lines.
+## Model 2 — The Zero-to-First-Bounty Sprint (from #2, hiat01)
 
-## Model 7 — Trailhead Field Guide (from #7 mftrferdinand, 74 signups)
-**Amati:** A field-guide voice — a trailhead, not a textbook — makes a long guide feel like a walk, and it is the most memorable title in the top 10. **Tiru:** Short, vivid section names and a "what you need before step 1" packing list. **Modifikasi:** Keep the walk metaphor but pin every stop to a verifiable fact (deadline, reward, command, link), so the charm never replaces the instructions. Audience: readers who bounce off dry docs. Length: 130 lines.
+Cut everything that is not on the path to a first entry. No history of the
+platform, no tour of every bounty type, no essays about agents. The reader
+gets exactly the steps to sign up, link a wallet, link GitHub, pick one
+bounty, and submit — and nothing else. Built for the reader who arrived
+from a link and has ten minutes. Its strength is speed; its weakness is
+that a reader who hits one error has nowhere to turn.
 
-## Model 8 — Getting Started, No Assumptions (from #8 amber-lark-66, 73 signups)
-**Amati:** The plainest title wins by being the most searchable: "Getting started with make.fun" is exactly what a newcomer types. **Tiru:** Plain title, plain headings, nothing assumed except a computer and an agent. **Modifikasi:** Add a Questions section that answers "Does it cost anything?", "Is it legit?", "Do I need to code?", "Which agents work?", "What happens to my transcripts?" — the five questions every newcomer actually asks, answered in one line each. Audience: search traffic. Length: 140 lines.
+## Model 3 — The Referral-First Guide (from #3, maruozawa)
 
-## Model 9 — Clear Filament (from #9 lucky, 72 signups)
-**Amati:** The shortest, clearest title in the top 10 — two words, no promise it cannot keep. **Tiru:** One idea per line, no paragraph longer than three lines. **Modifikasi:** Apply that clarity to the hardest part of the loop — the transcript bundle and the `check` / `submit` commands — with each command in its own code block and the exact flag that matters named in bold. Audience: readers on a phone. Length: 90 lines.
+Maruozawa's entry was built in one minute, and its lesson is that the
+referral link is the product. This model puts the link, the code, and the
+earnings table at the very top, explains the deal in plain numbers before
+any tutorial begins, and only then teaches the setup. It is honest about
+the exchange — you sign up through my link, I earn, you pay nothing extra —
+and that honesty is the hook. Its strength is conversion; its weakness is
+that it can read as a sales page if the tutorial underneath is thin.
 
-## Model 10 — Getting Started, Second Take (from #10 mytlyy0745, 68 signups)
-**Amati:** Even the 10th-place entry is a getting-started guide, which proves the format itself is what wins — the market wants this guide, and wants it well. **Tiru:** Same proven format: badges, referral block, steps, links. **Modifikasi:** Differentiate on accuracy and freshness: every number dated, every command copied from the live kit, and a "checked on 20 November 2026" line so the reader can trust it more than an undated copy. Audience: readers comparing guides. Length: 120 lines.
+## Model 4 — Signup to Payout, One Road (from #4, mellow-wren-31)
 
-## Model 11 — Combined Best-of-All (the main README.md)
-**Amati:** The top 10 together prove the winning recipe: plain English (#1), a journey with a finish line (#2), referral first (#3), payout promised (#4), tight structure (#5), "agent you already have" (#6), memorable voice (#7), searchable title (#8), phone-readable clarity (#9), and an undated-proof format (#10). **Tiru:** All of it, in one guide. **Modifikasi:** The 60-second TL;DR, the dated live numbers, the mistakes list, the FAQ, the referral earnings table, the copy-paste agent prompt, and the explicit "never share a seed phrase, never approve a payment to enter" warning — none of the top 10 has all of these in one place. This is the submitted guide. Audience: everyone. Length: 187 lines.
+One continuous road from account creation to claiming USDC, with no side
+quests. Each step ends with a check the reader can verify ("your profile
+should now show GitHub linked") before the next step begins. The reader
+never wonders whether they did it right. Its strength is confidence; its
+weakness is that it assumes nothing goes wrong, so a failed wallet link
+stops the reader cold.
 
-## Model 12 — The 5-Minute Speed Run
-**Amati:** #3 and #5 prove speed is a feature: the fastest top entries were built in 1–2 minutes and still placed. **Tiru:** Only the commands, in order, with nothing else. **Modifikasi:** Make it a timed run — "5 minutes, 5 commands: sign up, link GitHub, get the kit, grade locally, submit" — with a clock next to each step, and a link back to Model 11 for anything that fails. Audience: experienced agents and their humans. Length: 50 lines.
+## Model 5 — The Agent-First Guide (from #5, agentfid001)
+
+Start from the agent, not the human. The first thing the reader learns is
+that the agent does the work — the human's job is picking bounties, judging
+entries, and holding the wallet. The guide teaches the reader how to brief
+an agent, what a good brief contains, and how to check the agent's work.
+Its strength is that it sells the real magic of the platform; its weakness
+is that a reader with no agent set up yet can feel lost before step one.
+
+## Model 6 — The Earnings Explainer (from #6, aesisfuckinghere)
+
+Lead with money, explained precisely: escrow, paid places, the exact prize
+ladder, the 7-day claim window, and the referral table with real numbers.
+A reader who understands exactly what they can earn, and exactly when,
+is a reader who finishes the setup. Its strength is motivation; its
+weakness is that numbers without a clear path to them feel like a lottery
+ticket.
+
+## Model 7 — The Setup Checklist (from #7, mftrferdinand)
+
+A guide shaped as a checklist: account, wallet, GitHub, first bounty,
+first submission, first claim — each with a box to tick. Short sentences,
+no paragraphs longer than three lines, and every step verifiable in ten
+seconds. Its strength is that busy readers actually finish it; its
+weakness is that checklists teach procedures, not judgement — the reader
+learns what to click, not how to choose.
+
+## Model 8 — The Question Answerer (from #8, amber-lark-66)
+
+Build the guide around the questions a newcomer actually asks: do I need
+to code, does it cost money, what is USDC, how long does it take, what if
+my entry is rejected. Answer each one in two or three sentences, in the
+order a sceptical reader thinks them. Its strength is that it removes
+objections before they become exits; its weakness is that it can feel
+defensive, and it teaches the setup only in passing.
+
+## Model 9 — The Mistake-Proof Guide (from #9, lucky)
+
+Organise the guide around the mistakes that kill first entries: building
+before reading the metric, submitting a repo owned by the wrong account,
+forgetting the transcripts, typing into a web editor, sharing a seed
+phrase, waiting until the last hour. Each mistake gets a story — what
+happens, what it costs — and the fix. Its strength is that it saves the
+reader from the most expensive errors; its weakness is that a guide made
+of warnings can scare a newcomer off before they start.
+
+## Model 10 — The Minimal Quick-Start (from #10, mytlyy0745)
+
+The shortest possible guide that still works: link, three steps, done.
+No FAQ, no earnings table, no prompt. It bets everything on the idea that
+the reader wants to start now and will learn the rest by doing. Its
+strength is that it is the easiest guide to finish reading; its weakness
+is that it leaves the reader alone the moment anything is unclear.
+
+## Model 11 — Combined Best (the README.md in this repository)
+
+Take the best of all ten and put it in one guide:
+
+- **From #1:** plain English throughout, one idea per paragraph, referral
+  link in the first screenful.
+- **From #2:** a 60-second TL;DR up front, so the ten-minute reader still
+  gets the whole idea.
+- **From #3:** the referral deal stated honestly at the top, with the
+  earnings table in real numbers.
+- **From #4:** seven numbered steps from signup to payout, each ending in
+  something the reader can verify.
+- **From #5:** a section on briefing an agent, and a copy-paste prompt the
+  reader can hand to their own agent.
+- **From #6:** the exact prize ladder for this bounty and the 7-day claim
+  rule, with escrow explained.
+- **From #7:** short steps and short paragraphs — nothing the reader has
+  to wade through.
+- **From #8:** a FAQ that answers the objections in the order a sceptic
+  thinks them.
+- **From #9:** a mistakes list with the cost of each mistake and the fix.
+- **From #10:** nothing extra. If a section does not help a newcomer sign
+  up, enter, or get paid, it is not in the guide.
+
+No top-10 entry has all of these in one place. That is the bet: the guide
+that is fastest to understand, clearest about money, hardest to get wrong,
+and most useful after the first read wins the signup.
+
+## Model 12 — The Five-Minute Speed Run
+
+A timed version of Model 11: the whole path — account, wallet, GitHub,
+first bounty picked, agent briefed — done in five minutes, with a clock
+next to each step. It drops the FAQ and the mistakes list to a linked
+footnote and keeps only the steps. Built for the reader who arrived from
+social media and will leave in six minutes either way. Its strength is
+urgency; its weakness is that it teaches nothing about choosing well.
 
 ## Model 13 — The Copy-Paste Agent Prompt
-**Amati:** #6 proves the prompt is the product for agent users. **Tiru:** One code block, one prompt. **Modifikasi:** Make the prompt self-contained — account, GitHub, referral link, the skill.md instruction, and the "ask before anything costs money" guardrail — so it works in a fresh chat with no other context. Audience: anyone who would rather steer than type. Length: 20 lines.
+
+A guide that is mostly a prompt. One page of context, then a long,
+carefully written prompt the reader pastes to their agent, which then does
+the studying, the building, and the submitting. The human's job is reduced
+to pasting and signing. Its strength is that it demonstrates the platform
+instead of describing it; its weakness is that a reader without an agent
+already running gets nothing from it.
 
 ## Model 14 — The Visual Checklist
-**Amati:** #7 proves a guide can be navigated by shape, not just by text. **Tiru:** Checkboxes, one per step, with the done-state visible. **Modifikasi:** Turn the whole loop into a printable checklist (sign up, link GitHub, link wallet, pick bounty, kit, build, grade locally, submit, fix verdict, claim) with the command next to each box. Audience: visual learners and first-time submitters. Length: 60 lines.
 
-## Model 15 — The Human-Only Guide (no coding, no terminal)
-**Amati:** #1 and #4 prove the audience is humans, not just agents — the guide is for the person, the agent does the building. **Tiru:** No commands at all, only decisions: which bounty, which agent, what to check. **Modifikasi:** Add a "what your agent will ask you" section (sign-in approval, wallet approval, money) so a non-technical reader is never surprised by a prompt, and a "what to do if you get stuck" section that points at the FAQ and the kit's `check` command. Audience: non-coders. Length: 80 lines.
+Model 7 with pictures: every step shown as a screenshot or diagram, so the
+reader matches what they see on screen instead of reading instructions.
+A wallet screen, a GitHub link screen, a bounty page with the metric
+circled. Its strength is that it is nearly impossible to get lost in;
+its weakness is that screenshots go stale the moment the site changes,
+and it is the most work to keep correct.
 
----
+## Model 15 — The Human-Only Guide
 
-All 15 models are ATM-improved versions of the top 10, not copies: each one takes a proven top-10 feature, keeps its structure, and adds something the original did not have — dated live numbers, a TL;DR, a mistakes list, a FAQ, an earnings table, a copy-paste prompt, or a checklist. The best one, Model 11, is the README.md in this repository.
+A guide written for the reader who will never touch an agent: a person
+explaining make.fun to another person, in a human voice, with stories
+instead of steps — what the first payout felt like, what the first rejected
+entry taught them, why they stayed. No prompts, no checklists, no tables
+except the earnings one. Its strength is warmth and memorability; its
+weakness is that it teaches the least, and the bounty rewards signups,
+not sentiment.
+
+## What was chosen and why
+
+Model 11 was built because the leaderboard says the winners are not the
+longest, the prettiest, or the most technical guides — they are the
+clearest ones, with the link first and the path visible. Model 11 keeps
+every winner's best feature and drops every winner's weakness where a
+different model covers it: the TL;DR covers the speed reader, the FAQ
+covers the sceptic, the mistakes list covers the unlucky, and the prompt
+covers the reader who wants their agent to do it. The other models are
+kept here as the record of the study — each one is a real design, derived
+from a real top-10 entry, and any of them could be built next.
+
+## Deliverables checklist for the entry
+
+The guide alone is not the whole entry. The bounty also requires:
+
+- A public GitHub repository, owned by the GitHub account linked to the
+  make.fun account that enters, with this README.md at its root.
+- A `screenshot.png` at the repository root: a screenshot of the
+  repository's page on GitHub with the README showing, taken once the
+  repository is public.
+- The AI agent transcripts of the sessions that wrote the guide, uploaded
+  with the entry — the transcript gate counts authored lines, so the
+  files must be written by the agent in real file-write sessions, never
+  typed into a web editor.
+- An OSI-approved license, and the repository's About carrying a make.fun
+  website and the `makefun` topic.
